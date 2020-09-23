@@ -1,0 +1,41 @@
+body{
+    background-color: cadetblue;
+}
+
+.todo-app {
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 50px;
+    background-color: coral;
+}
+
+.form-text {
+    margin-left: 35%;
+    padding-top: 50px;
+}
+
+.form-text input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.form-text input:focus, .form-text button:focus  {
+    outline: none;
+}
+
+.form-text button {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: red;
+}

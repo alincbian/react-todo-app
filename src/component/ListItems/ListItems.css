@@ -1,0 +1,26 @@
+.list-item {
+    border-radius: 20px;
+    width : 250px;
+    color: #fff;
+    background-color: darkolivegreen;
+    margin-left: 35%;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.list-item p {
+    position: relative;
+    font-size: 18px;
+}
+
+.list-item p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 0 5px;
+    font-size: 15px;
+}
